@@ -19,7 +19,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect { |el| el.insert(2, '$')}
+  array.each { |el| el.insert(2, '$')}
 end
 
 def find_a(array)
