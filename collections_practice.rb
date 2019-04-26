@@ -35,7 +35,7 @@ end
 
 def add_s(array)
   array.collect.with_index do |element, index|
-    index == 1 ? element : element "s"
+    index == 1 ? element : element + "s"
   end
 end
 
